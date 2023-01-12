@@ -1,0 +1,16 @@
+/* main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+} */
+@font-face{
+  font-family:DIN-Condensed;
+  src: url(../public/DINCondensedBold.ttf);
+}
+@font-face{
+  font-family:GillSans;
+  src: url(../public/GillSans.ttc);
+}
+body{
+ 
+}

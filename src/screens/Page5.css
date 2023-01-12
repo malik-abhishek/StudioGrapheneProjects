@@ -1,0 +1,257 @@
+@font-face{
+  font-family:DIN-Condensed;
+  src: url(../public/DINCondensedBold.ttf);
+}
+@font-face{
+  font-family:GillSans;
+  src: url(../public/GillSans.ttc);
+}
+.page-5{
+  background-color:#FFFFFF;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  width:90%;
+  margin-left:auto;
+ 
+}
+.left-heading{
+  margin-left:0px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.heading-5{
+  font-family:DIN-Condensed;
+  display:flex;
+  justify-content:space-between;
+  margin-left:0px;
+}
+.left-heading-2{
+  font-size:4rem;
+  font-family:DIN-Condensed;
+}
+.left-heading-1{
+   font-size:2rem;
+   font-family:DIN-Condensed; 
+}
+.left-heading-3{
+   padding: 10px 10px 6px 10px;
+    background-color: #FFDAC9;
+    display: inline-block;
+    width:fit-content;
+}
+.right-heading{
+  display: flex;
+  flex-direction: column;
+      align-items: end;
+      margin-right: 5rem;
+}
+.right-heading-1{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+.cards-section{
+  display:flex;
+  flex-direction:row;
+  position:relative;
+  
+}
+.card-1{
+  box-shadow: 0px 20px 30px #0000000A;
+  display:flex;
+  flex-direction:column;  
+   width: 23.1rem;
+   height: 35rem;
+  margin:10px;
+}
+.card-1 img{
+   width: 23.1rem;
+  height: 23.1rem;
+   object-fit:cover;
+}
+.card-text{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  margin:1rem;
+}
+.difficulty{
+/*   font: normal normal bold 14px/42px DIN-Condensed; */
+font-size: 0.8rem;
+  font-family:DIN-Condensed;
+  opacity: 0.56;
+}
+.card-heading{
+/*   font: normal normal bold 22px/25px DIN-Condensed; */
+  font-size: 1.4rem;
+  font-family:DIN-Condensed;
+}
+.card-discription{
+/*   font: normal normal normal 15px/20px GillSans; */
+  font-size:1rem;
+  font-family:GillSans;
+}
+.img-div-1{
+  position:relative;
+ width: 23.1rem;
+ height: 23.1rem;
+}
+.img-div{
+  position:relative;
+  width: 15rem;
+  height: 15rem;
+}
+.card-2{
+   box-shadow: 0px 20px 30px #0000000A;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  display:flex;
+  flex-direction:column; 
+  width: 15rem;
+  height: 28rem;
+  margin:10px;
+}
+.card-2 img{
+  width: 15rem;
+  height: 15rem;
+}
+#close-image{
+    display: inline-block;
+    height: 3.5rem;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 3.5rem;
+    position:absolute;
+   bottom:0px;
+   right:0px;
+}
+
+
+#close-image img {
+    display: block;
+    height: 3.5rem;
+    width: 3.5rem;
+   background: #FFDAC9 0% 0% no-repeat padding-box;
+  
+   
+}
+#close-image-1 img {
+    display: block;
+    height: 3.5rem;
+    width: 3.5rem;
+/*    background: #FFDAC9 0% 0% no-repeat padding-box; */
+}
+
+.card-2-odd img{
+    width: 15rem;
+    height: 15rem;
+}
+.logo-two{
+   z-index:10;
+      height: 7rem;
+    width: 7rem;
+  position:absolute;
+  display:black;
+   left:48%;
+   top:-5%;
+  
+}
+.logo-one{
+    z-index:10;
+    position:absolute;
+    display: block;
+        height: 7rem;
+    width: 7rem;
+    left:15%;
+    top:-5%;
+  
+}
+.card-2-odd {
+  box-shadow: 0px 20px 30px #0000000A;
+ background: #FFFFFF 0% 0% no-repeat padding-box;
+  display:flex;
+  flex-direction:column; 
+  width: 240px;
+  height: 450px;
+  margin:10px;
+  position:relative;
+  top:10%;
+  left:0%;
+}
+#close-image-1{ 
+  display: inline-block;
+  height: 3.5rem;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  width: 3.5rem;
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  
+  }
+@media only screen and (max-width:1300px){
+
+  .page-5{
+    width:90%;
+    overflow:auto;
+  }
+  
+ .card-1{
+   width: 23.1rem;
+   height: 35rem;
+}
+  .card-2{
+ 
+  width: 15rem;
+  height: 28rem;
+
+}
+  .img-div-1{
+ width: 23.1rem;
+ height: 23.1rem;
+}
+  .img-div{
+  width: 15rem;
+  height: 15rem;
+}
+  .card-1 img{
+   width: 23.1rem;
+  height: 23.1rem;
+   object-fit:cover;
+}
+  .card-2 img{
+  width: 15rem;
+  height: 15rem;
+}
+#close-image{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+  #close-image-1{  
+  height: 3.5rem;
+  width: 3.5rem;
+  }
+  #close-image img {
+      height: 3.5rem;
+    width: 3.5rem;
+   }
+  #close-image-1 img {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+  .left-heading-2{
+  font-size:4rem;
+}
+  .left-heading-1{
+   font-size:2rem;
+}
+  .right-heading-1{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+  .logo-two{
+    left:70%;
+  }
+}
